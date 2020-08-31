@@ -53,7 +53,7 @@ public class PDFSplitController {
 		boolean value = false;
 		ModelAndView modelandview = new ModelAndView();
 		// Setting the Upload Directory which is also a Backup Directory
-		String UploadDir = "C:\\pdftools\\splitpdf";
+		String UploadDir = "/home/ec2-user/pdfdir/splitpdf";
 		String outputfilename = "splitfile.pdf";
 		String finalname=null;
 		InputStream in = null;
