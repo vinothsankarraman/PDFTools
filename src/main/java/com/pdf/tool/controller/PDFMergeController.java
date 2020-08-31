@@ -39,7 +39,7 @@ public class PDFMergeController {
 		String outputfilename = "mergedfile.pdf";
 		
 		// Setting the Upload Directory which is also a Backup Directory
-				String UploadDir = "C:\\pdftools\\mergepdf";
+				String UploadDir = "/home/ec2-user/pdfdir/mergeupload";
 
 		// Get the Output file path
 		// String outputfile = model.getSavefile();
