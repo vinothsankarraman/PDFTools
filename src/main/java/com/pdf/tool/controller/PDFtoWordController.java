@@ -66,7 +66,7 @@ public class PDFtoWordController {
 		System.out.println("Get mapping pdftoword upload   ...");
 
 		// Setting the Upload Directory which is also a Backup Directory
-		String UploadDir = "C:\\pdftools\\pdf2word";
+		String UploadDir = "/home/ec2-user/pdfdir/pdftoword";
 
 		byte[] bytes = file.getBytes();
 
